@@ -1,0 +1,39 @@
+body {
+	background-color: #E7E5DF;
+
+}
+#main {
+  background-color:#D3D0CB;
+  margin-top: 10%;
+
+}
+
+h1.title {
+	color:#393E41;
+	text-align:center; 
+	padding:2%;
+}
+
+#bioResult {
+	background-color:#E7BB41;
+	padding: 2%;
+	text-align:center; 
+	font-size: 20px;
+	color:#393E41;
+}
+
+#generateButton {
+	padding: 2%;
+	text-align: center;
+	border-width: 0; 
+}
+
+#generateButton:active {
+		box-shadow:none;
+	}
+
+.btn {
+	background-color: #44BBA4;
+	color:#393E41;
+	font-size:20px;
+}
