@@ -5,7 +5,8 @@ body {
 #main {
   background-color:#D3D0CB;
   margin-top: 10%;
-
+  border-radius: 10px;
+  min-width: 300px;
 }
 
 h1.title {
@@ -18,22 +19,35 @@ h1.title {
 	background-color:#E7BB41;
 	padding: 2%;
 	text-align:center; 
+	height:100px;
 	font-size: 20px;
 	color:#393E41;
+	border-radius:10px; 
+	min-width: 280px;
+
 }
 
-#generateButton {
+.custom-btn {
 	padding: 2%;
-	text-align: center;
+	position: static;
 	border-width: 0; 
-}
-
-#generateButton:active {
-		box-shadow:none;
-	}
-
-.btn {
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-color: #44BBA4;
 	color:#393E41;
 	font-size:20px;
 }
+
+.custom-btn:active, .custom-btn:focus, .custom-btn:focus:active, .custom-btn:hover {
+	background-color: #44BBA4;
+	outline: none;
+	border: none;
+}	
+
+/*
+- remove border from buttons when active
+- check the radious of the generator box and main box
+- fix the size on different screens
+
+ */
+
